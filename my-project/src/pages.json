@@ -1,19 +1,19 @@
 {
-	"pages": [ 
-		{
-			"path": "pages/index3/index",
-			"style": {
-				"navigationBarTitleText": "数据管理"
-			}
-		},
+	"pages": [
 	{
-		"path": "pages/index2/index",
+		"path": "pages/index3/index",
 		"style": {
-			"navigationBarTitleText": "2"
+			"navigationBarTitleText": "数据显示"
 		}
 	},
-
+	
 	{
+			"path": "pages/index2/index",
+			"style": {
+				"navigationBarTitleText": "2"
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "uni-app"

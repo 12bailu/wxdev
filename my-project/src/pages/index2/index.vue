@@ -1,49 +1,37 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view>
-			<text class="title">2</text>
-		</view>
+		<view class="rpx">rpx</view>
+		<view class="vw">vw</view>
+		<view class="sass">sass</view>
+		
 	</view>
 </template>
 
 <script>
 	export default {
-		data() {     //数据控制页面
-			return {
-				title: 'Hello'
-			}
-		},
-		onLoad() {
 
-		},
-		methods: {
-
-		}
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+<style lang="scss">
+   .rpx{
+	width: 750rpx;
+	height: 100px;
+	background-color: aqua;
+   }
+.vw{
+  width: 50vw;
+ height: 100px;
+ background-color: tan;
+}
+.content{
+   .sass{
+	background-color: red;
+   }
 
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin: 200rpx auto 50rpx auto;
-	}
 
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
+}
 
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
+
+
 </style>
